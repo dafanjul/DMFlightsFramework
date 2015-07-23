@@ -10,6 +10,12 @@
 		BD0CD34D1B6115B5004231A2 /* DMFlightsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD34C1B6115B5004231A2 /* DMFlightsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD0CD3531B6115B5004231A2 /* DMFlightsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */; };
 		BD0CD35A1B6115B5004231A2 /* DMFlightsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD3591B6115B5004231A2 /* DMFlightsFrameworkTests.m */; };
+		BD0CD3641B611DE4004231A2 /* DMFlightsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0CD3631B611DE4004231A2 /* DMFlightsStoryboard.storyboard */; };
+		BD0CD3671B611E19004231A2 /* DMFlightsMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD3651B611E19004231A2 /* DMFlightsMainViewController.h */; };
+		BD0CD3681B611E19004231A2 /* DMFlightsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD3661B611E19004231A2 /* DMFlightsMainViewController.m */; };
+		BD0CD36B1B611E2F004231A2 /* DMFlights.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD3691B611E2F004231A2 /* DMFlights.h */; };
+		BD0CD36C1B611E2F004231A2 /* DMFlights.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD36A1B611E2F004231A2 /* DMFlights.m */; };
+		BD0CD36E1B612294004231A2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0CD36D1B612294004231A2 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		BD0CD3521B6115B5004231A2 /* DMFlightsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMFlightsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0CD3581B6115B5004231A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0CD3591B6115B5004231A2 /* DMFlightsFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMFlightsFrameworkTests.m; sourceTree = "<group>"; };
+		BD0CD3631B611DE4004231A2 /* DMFlightsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DMFlightsStoryboard.storyboard; path = Resources/DMFlightsStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		BD0CD3651B611E19004231A2 /* DMFlightsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFlightsMainViewController.h; sourceTree = "<group>"; };
+		BD0CD3661B611E19004231A2 /* DMFlightsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFlightsMainViewController.m; sourceTree = "<group>"; };
+		BD0CD3691B611E2F004231A2 /* DMFlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFlights.h; sourceTree = "<group>"; };
+		BD0CD36A1B611E2F004231A2 /* DMFlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFlights.m; sourceTree = "<group>"; };
+		BD0CD36D1B612294004231A2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,12 @@
 			children = (
 				BD0CD34C1B6115B5004231A2 /* DMFlightsFramework.h */,
 				BD0CD34A1B6115B5004231A2 /* Supporting Files */,
+				BD0CD3631B611DE4004231A2 /* DMFlightsStoryboard.storyboard */,
+				BD0CD36D1B612294004231A2 /* Media.xcassets */,
+				BD0CD3651B611E19004231A2 /* DMFlightsMainViewController.h */,
+				BD0CD3661B611E19004231A2 /* DMFlightsMainViewController.m */,
+				BD0CD3691B611E2F004231A2 /* DMFlights.h */,
+				BD0CD36A1B611E2F004231A2 /* DMFlights.m */,
 			);
 			path = DMFlightsFramework;
 			sourceTree = "<group>";
@@ -110,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0CD34D1B6115B5004231A2 /* DMFlightsFramework.h in Headers */,
+				BD0CD36B1B611E2F004231A2 /* DMFlights.h in Headers */,
+				BD0CD3671B611E19004231A2 /* DMFlightsMainViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0CD36E1B612294004231A2 /* Media.xcassets in Resources */,
+				BD0CD3641B611DE4004231A2 /* DMFlightsStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0CD36C1B611E2F004231A2 /* DMFlights.m in Sources */,
+				BD0CD3681B611E19004231A2 /* DMFlightsMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +422,7 @@
 				BD0CD35F1B6115B5004231A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0CD3601B6115B5004231A2 /* Build configuration list for PBXNativeTarget "DMFlightsFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +431,7 @@
 				BD0CD3621B6115B5004231A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
