@@ -4,35 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DMFlightsApp.xcscheme</key>
+		<key>Pods-DMFlightsApp-DMCoreFramework.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>DMFlightsFramework.xcscheme</key>
+		<key>Pods-DMFlightsApp.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DMFlightsFramework-DMCoreFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DMFlightsFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BD0CD3461B6115B5004231A2</key>
+		<key>127E98088F00D7987E6C8ABE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD0CD3511B6115B5004231A2</key>
+		<key>1E45E80368E2CAD24EC0DD38</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD9D55CC1B61924A0035AC5C</key>
+		<key>A371B55EDED2C415721AC356</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD9D55E41B61924B0035AC5C</key>
+		<key>F93BB004DB09EFAB2797ED48</key>
 		<dict>
 			<key>primary</key>
 			<true/>

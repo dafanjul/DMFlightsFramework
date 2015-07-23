@@ -1,0 +1,10 @@
+PODS:
+  - DMCoreFramework (0.0.1)
+
+DEPENDENCIES:
+  - DMCoreFramework
+
+SPEC CHECKSUMS:
+  DMCoreFramework: 5b066adfb5dbcd5b4cf46102911c24b1c7823390
+
+COCOAPODS: 0.37.2

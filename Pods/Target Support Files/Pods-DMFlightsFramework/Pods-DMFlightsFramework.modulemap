@@ -1,0 +1,6 @@
+framework module Pods_DMFlightsFramework {
+  umbrella header "Pods-DMFlightsFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -136,4 +136,6 @@ s.source       = { :git => "https://github.com/dafanjul/DMFlightsFramework.git",
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
+s.dependency "DMCoreFramework"
+
 end

@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B49244BEE156774723A36820 /* Pods_DMFlightsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF200B594F49DE565BF51E7 /* Pods_DMFlightsFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BD0CD34D1B6115B5004231A2 /* DMFlightsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD34C1B6115B5004231A2 /* DMFlightsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD0CD3531B6115B5004231A2 /* DMFlightsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */; };
 		BD0CD35A1B6115B5004231A2 /* DMFlightsFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD3591B6115B5004231A2 /* DMFlightsFrameworkTests.m */; };
 		BD0CD3641B611DE4004231A2 /* DMFlightsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0CD3631B611DE4004231A2 /* DMFlightsStoryboard.storyboard */; };
 		BD0CD3671B611E19004231A2 /* DMFlightsMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD3651B611E19004231A2 /* DMFlightsMainViewController.h */; };
 		BD0CD3681B611E19004231A2 /* DMFlightsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD3661B611E19004231A2 /* DMFlightsMainViewController.m */; };
-		BD0CD36B1B611E2F004231A2 /* DMFlights.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD3691B611E2F004231A2 /* DMFlights.h */; };
+		BD0CD36B1B611E2F004231A2 /* DMFlights.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0CD3691B611E2F004231A2 /* DMFlights.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD0CD36C1B611E2F004231A2 /* DMFlights.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0CD36A1B611E2F004231A2 /* DMFlights.m */; };
 		BD0CD36E1B612294004231A2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0CD36D1B612294004231A2 /* Media.xcassets */; };
+		BD9D55D21B61924A0035AC5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D55D11B61924A0035AC5C /* main.m */; };
+		BD9D55D51B61924A0035AC5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D55D41B61924A0035AC5C /* AppDelegate.m */; };
+		BD9D55D81B61924A0035AC5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D55D71B61924A0035AC5C /* ViewController.m */; };
+		BD9D55DB1B61924A0035AC5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9D55D91B61924A0035AC5C /* Main.storyboard */; };
+		BD9D55DD1B61924A0035AC5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D55DC1B61924A0035AC5C /* Images.xcassets */; };
+		BD9D55E01B61924A0035AC5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9D55DE1B61924A0035AC5C /* LaunchScreen.xib */; };
+		BD9D55EC1B61924B0035AC5C /* DMFlightsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D55EB1B61924B0035AC5C /* DMFlightsAppTests.m */; };
+		BD9D55F51B61925F0035AC5C /* DMFlightsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */; };
+		BD9D55F61B61925F0035AC5C /* DMFlightsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F6A743D38DDAC42C740CC722 /* Pods_DMFlightsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEC206DAFFF491F3694DAA8 /* Pods_DMFlightsApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +37,43 @@
 			remoteGlobalIDString = BD0CD3461B6115B5004231A2;
 			remoteInfo = DMFlightsFramework;
 		};
+		BD9D55E61B61924B0035AC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0CD33E1B6115B5004231A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9D55CC1B61924A0035AC5C;
+			remoteInfo = DMFlightsApp;
+		};
+		BD9D55F31B6192570035AC5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0CD33E1B6115B5004231A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0CD3461B6115B5004231A2;
+			remoteInfo = DMFlightsFramework;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BD9D55F71B61925F0035AC5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD9D55F61B61925F0035AC5C /* DMFlightsFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		073397AF9B70B7EEC9D7B934 /* Pods-DMFlightsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMFlightsFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMFlightsFramework/Pods-DMFlightsFramework.release.xcconfig"; sourceTree = "<group>"; };
+		0EF200B594F49DE565BF51E7 /* Pods_DMFlightsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMFlightsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E97BDFF8E054948A0394C5F /* Pods-DMFlightsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMFlightsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMFlightsApp/Pods-DMFlightsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEC206DAFFF491F3694DAA8 /* Pods_DMFlightsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMFlightsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37CDEBFDE64F6262A8F2BC8 /* Pods-DMFlightsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMFlightsFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMFlightsFramework/Pods-DMFlightsFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		A38755D9BF37549CF149CE92 /* Pods-DMFlightsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMFlightsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMFlightsApp/Pods-DMFlightsApp.release.xcconfig"; sourceTree = "<group>"; };
 		BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMFlightsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0CD34B1B6115B5004231A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0CD34C1B6115B5004231A2 /* DMFlightsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMFlightsFramework.h; sourceTree = "<group>"; };
@@ -41,6 +86,19 @@
 		BD0CD3691B611E2F004231A2 /* DMFlights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFlights.h; sourceTree = "<group>"; };
 		BD0CD36A1B611E2F004231A2 /* DMFlights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFlights.m; sourceTree = "<group>"; };
 		BD0CD36D1B612294004231A2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = SOURCE_ROOT; };
+		BD9D55CD1B61924A0035AC5C /* DMFlightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMFlightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9D55D01B61924A0035AC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9D55D11B61924A0035AC5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD9D55D31B61924A0035AC5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD9D55D41B61924A0035AC5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD9D55D61B61924A0035AC5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD9D55D71B61924A0035AC5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD9D55DA1B61924A0035AC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD9D55DC1B61924A0035AC5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD9D55DF1B61924A0035AC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD9D55E51B61924B0035AC5C /* DMFlightsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMFlightsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9D55EA1B61924B0035AC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9D55EB1B61924B0035AC5C /* DMFlightsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMFlightsAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49244BEE156774723A36820 /* Pods_DMFlightsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,15 +118,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD9D55CA1B61924A0035AC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9D55F51B61925F0035AC5C /* DMFlightsFramework.framework in Frameworks */,
+				F6A743D38DDAC42C740CC722 /* Pods_DMFlightsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9D55E21B61924B0035AC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FB78F6EEA4BD803E7A4B524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E97BDFF8E054948A0394C5F /* Pods-DMFlightsApp.debug.xcconfig */,
+				A38755D9BF37549CF149CE92 /* Pods-DMFlightsApp.release.xcconfig */,
+				A37CDEBFDE64F6262A8F2BC8 /* Pods-DMFlightsFramework.debug.xcconfig */,
+				073397AF9B70B7EEC9D7B934 /* Pods-DMFlightsFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F8101AA9438B6A70FDF4422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EEC206DAFFF491F3694DAA8 /* Pods_DMFlightsApp.framework */,
+				0EF200B594F49DE565BF51E7 /* Pods_DMFlightsFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD0CD33D1B6115B5004231A2 = {
 			isa = PBXGroup;
 			children = (
 				BD0CD3491B6115B5004231A2 /* DMFlightsFramework */,
 				BD0CD3561B6115B5004231A2 /* DMFlightsFrameworkTests */,
+				BD9D55CE1B61924A0035AC5C /* DMFlightsApp */,
+				BD9D55E81B61924B0035AC5C /* DMFlightsAppTests */,
 				BD0CD3481B6115B5004231A2 /* Products */,
+				1FB78F6EEA4BD803E7A4B524 /* Pods */,
+				6F8101AA9438B6A70FDF4422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +175,8 @@
 			children = (
 				BD0CD3471B6115B5004231A2 /* DMFlightsFramework.framework */,
 				BD0CD3521B6115B5004231A2 /* DMFlightsFrameworkTests.xctest */,
+				BD9D55CD1B61924A0035AC5C /* DMFlightsApp.app */,
+				BD9D55E51B61924B0035AC5C /* DMFlightsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +221,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BD9D55CE1B61924A0035AC5C /* DMFlightsApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD9D55D31B61924A0035AC5C /* AppDelegate.h */,
+				BD9D55D41B61924A0035AC5C /* AppDelegate.m */,
+				BD9D55D61B61924A0035AC5C /* ViewController.h */,
+				BD9D55D71B61924A0035AC5C /* ViewController.m */,
+				BD9D55D91B61924A0035AC5C /* Main.storyboard */,
+				BD9D55DC1B61924A0035AC5C /* Images.xcassets */,
+				BD9D55DE1B61924A0035AC5C /* LaunchScreen.xib */,
+				BD9D55CF1B61924A0035AC5C /* Supporting Files */,
+			);
+			path = DMFlightsApp;
+			sourceTree = "<group>";
+		};
+		BD9D55CF1B61924A0035AC5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9D55D01B61924A0035AC5C /* Info.plist */,
+				BD9D55D11B61924A0035AC5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD9D55E81B61924B0035AC5C /* DMFlightsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9D55EB1B61924B0035AC5C /* DMFlightsAppTests.m */,
+				BD9D55E91B61924B0035AC5C /* Supporting Files */,
+			);
+			path = DMFlightsAppTests;
+			sourceTree = "<group>";
+		};
+		BD9D55E91B61924B0035AC5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9D55EA1B61924B0035AC5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -140,10 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD0CD35D1B6115B5004231A2 /* Build configuration list for PBXNativeTarget "DMFlightsFramework" */;
 			buildPhases = (
+				F976E9949CD7D50F6B9BB974 /* Check Pods Manifest.lock */,
 				BD0CD3421B6115B5004231A2 /* Sources */,
 				BD0CD3431B6115B5004231A2 /* Frameworks */,
 				BD0CD3441B6115B5004231A2 /* Headers */,
 				BD0CD3451B6115B5004231A2 /* Resources */,
+				EDC26AE5990F27706D557BF5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +316,46 @@
 			productReference = BD0CD3521B6115B5004231A2 /* DMFlightsFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BD9D55CC1B61924A0035AC5C /* DMFlightsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9D55F11B61924B0035AC5C /* Build configuration list for PBXNativeTarget "DMFlightsApp" */;
+			buildPhases = (
+				434DE04AF556CA82721DFC87 /* Check Pods Manifest.lock */,
+				BD9D55C91B61924A0035AC5C /* Sources */,
+				BD9D55CA1B61924A0035AC5C /* Frameworks */,
+				BD9D55CB1B61924A0035AC5C /* Resources */,
+				BD9D55F71B61925F0035AC5C /* Embed Frameworks */,
+				A31F461068AA1E76ACC54A5C /* Embed Pods Frameworks */,
+				D782D13D09D163A71A6A8C57 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9D55F41B6192570035AC5C /* PBXTargetDependency */,
+			);
+			name = DMFlightsApp;
+			productName = DMFlightsApp;
+			productReference = BD9D55CD1B61924A0035AC5C /* DMFlightsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9D55E41B61924B0035AC5C /* DMFlightsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9D55F21B61924B0035AC5C /* Build configuration list for PBXNativeTarget "DMFlightsAppTests" */;
+			buildPhases = (
+				BD9D55E11B61924B0035AC5C /* Sources */,
+				BD9D55E21B61924B0035AC5C /* Frameworks */,
+				BD9D55E31B61924B0035AC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9D55E71B61924B0035AC5C /* PBXTargetDependency */,
+			);
+			name = DMFlightsAppTests;
+			productName = DMFlightsAppTests;
+			productReference = BD9D55E51B61924B0035AC5C /* DMFlightsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +371,13 @@
 					BD0CD3511B6115B5004231A2 = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					BD9D55CC1B61924A0035AC5C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BD9D55E41B61924B0035AC5C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BD9D55CC1B61924A0035AC5C;
+					};
 				};
 			};
 			buildConfigurationList = BD0CD3411B6115B5004231A2 /* Build configuration list for PBXProject "DMFlightsFramework" */;
@@ -195,6 +386,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BD0CD33D1B6115B5004231A2;
 			productRefGroup = BD0CD3481B6115B5004231A2 /* Products */;
@@ -203,6 +395,8 @@
 			targets = (
 				BD0CD3461B6115B5004231A2 /* DMFlightsFramework */,
 				BD0CD3511B6115B5004231A2 /* DMFlightsFrameworkTests */,
+				BD9D55CC1B61924A0035AC5C /* DMFlightsApp */,
+				BD9D55E41B61924B0035AC5C /* DMFlightsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +418,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD9D55CB1B61924A0035AC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9D55DB1B61924A0035AC5C /* Main.storyboard in Resources */,
+				BD9D55E01B61924A0035AC5C /* LaunchScreen.xib in Resources */,
+				BD9D55DD1B61924A0035AC5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9D55E31B61924B0035AC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		434DE04AF556CA82721DFC87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A31F461068AA1E76ACC54A5C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMFlightsApp/Pods-DMFlightsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D782D13D09D163A71A6A8C57 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMFlightsApp/Pods-DMFlightsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC26AE5990F27706D557BF5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMFlightsFramework/Pods-DMFlightsFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F976E9949CD7D50F6B9BB974 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD0CD3421B6115B5004231A2 /* Sources */ = {
@@ -244,6 +533,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD9D55C91B61924A0035AC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9D55D81B61924A0035AC5C /* ViewController.m in Sources */,
+				BD9D55D51B61924A0035AC5C /* AppDelegate.m in Sources */,
+				BD9D55D21B61924A0035AC5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9D55E11B61924B0035AC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9D55EC1B61924B0035AC5C /* DMFlightsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -252,7 +559,36 @@
 			target = BD0CD3461B6115B5004231A2 /* DMFlightsFramework */;
 			targetProxy = BD0CD3541B6115B5004231A2 /* PBXContainerItemProxy */;
 		};
+		BD9D55E71B61924B0035AC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9D55CC1B61924A0035AC5C /* DMFlightsApp */;
+			targetProxy = BD9D55E61B61924B0035AC5C /* PBXContainerItemProxy */;
+		};
+		BD9D55F41B6192570035AC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0CD3461B6115B5004231A2 /* DMFlightsFramework */;
+			targetProxy = BD9D55F31B6192570035AC5C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD9D55D91B61924A0035AC5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9D55DA1B61924A0035AC5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD9D55DE1B61924A0035AC5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9D55DF1B61924A0035AC5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BD0CD35B1B6115B5004231A2 /* Debug */ = {
@@ -345,6 +681,7 @@
 		};
 		BD0CD35E1B6115B5004231A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37CDEBFDE64F6262A8F2BC8 /* Pods-DMFlightsFramework.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -360,6 +697,7 @@
 		};
 		BD0CD35F1B6115B5004231A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073397AF9B70B7EEC9D7B934 /* Pods-DMFlightsFramework.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -403,6 +741,66 @@
 			};
 			name = Release;
 		};
+		BD9D55ED1B61924B0035AC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E97BDFF8E054948A0394C5F /* Pods-DMFlightsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMFlightsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD9D55EE1B61924B0035AC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38755D9BF37549CF149CE92 /* Pods-DMFlightsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DMFlightsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD9D55EF1B61924B0035AC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMFlightsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMFlightsApp.app/DMFlightsApp";
+			};
+			name = Debug;
+		};
+		BD9D55F01B61924B0035AC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DMFlightsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMFlightsApp.app/DMFlightsApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -429,6 +827,24 @@
 			buildConfigurations = (
 				BD0CD3611B6115B5004231A2 /* Debug */,
 				BD0CD3621B6115B5004231A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9D55F11B61924B0035AC5C /* Build configuration list for PBXNativeTarget "DMFlightsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9D55ED1B61924B0035AC5C /* Debug */,
+				BD9D55EE1B61924B0035AC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9D55F21B61924B0035AC5C /* Build configuration list for PBXNativeTarget "DMFlightsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9D55EF1B61924B0035AC5C /* Debug */,
+				BD9D55F01B61924B0035AC5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

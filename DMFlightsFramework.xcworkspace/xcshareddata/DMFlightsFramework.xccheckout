@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91DC2A7F-BB6D-4484-A8FA-73E36436D8E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DMFlightsFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</key>
+		<string>https://github.com/dafanjul/DMFlightsFramework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DMFlightsFramework.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dafanjul/DMFlightsFramework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VUELOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

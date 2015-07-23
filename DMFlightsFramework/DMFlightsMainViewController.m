@@ -7,6 +7,7 @@
 //
 
 #import "DMFlightsMainViewController.h"
+@import DMCoreFramework;
 
 @interface DMFlightsMainViewController ()
 
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"asdasd");
+    
+    UIView *v = [[[CoreCode alloc]init] quieroMagia];
+    v.frame = CGRectMake(50, 200, 50, 50);
+    [self.view addSubview:v];
+    
     // Do any additional setup after loading the view.
 }
 
